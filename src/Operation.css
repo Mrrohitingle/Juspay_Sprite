@@ -1,0 +1,26 @@
+input{
+    width:50px;
+    border-radius: 50%;
+    height: 50px;
+}
+button{
+    display:block;
+    padding: 5px;
+    margin:5px;
+    width: 250px;
+    background-color: navy;
+    color:white;
+    font-size: 15px;
+}
+.operation {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .inputField {
+    width: 50px;
+    margin: 0 5px;
+  }
+  
+  

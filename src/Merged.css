@@ -1,0 +1,84 @@
+.common-heading {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.container {
+  display: flex;
+  height: calc(100vh - 60px); /* Adjusted for heading height */
+  border-bottom: 2px solid #ccc;
+}
+
+.side1,
+.side2,
+.side4 {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  margin: 5px;
+  overflow: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.side1 {
+  width: 25%;
+  background-color: #f0f8ff;
+}
+
+.side2 {
+  width: 30%;
+  background-color: #e6f7ff;
+}
+
+.side4 {
+  width: 45%;
+  background-color: #e0f7fa;
+  max-height: 500px; /* Set max height for scrollable area */
+  overflow-y: scroll; /* Add vertical scrollbar */
+}
+
+h2 {
+  margin: 0;
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  text-align: left;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+}
+
+input {
+  width: 50px;
+  border-radius: 5px;
+  height: 25px;
+}
+
+button {
+  display: block;
+  padding: 10px;
+  margin: 10px 5%;
+  width: 90%;
+  background-color: #9b4caf; /* Green */
+  color: white;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #4557a0; /* Darker green */
+}
+
+.info {
+  margin-top: 20px;
+}
+
+.info p {
+  margin: 5px 0;
+}

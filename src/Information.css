@@ -1,0 +1,9 @@
+/* Information.css */
+#xco, #yco, #dir {
+    margin: 5px;
+    border: 1px solid black;
+    width: 40px;
+    display: inline-block;
+    text-align: center;
+  }
+  
