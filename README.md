@@ -39,7 +39,7 @@ Ensure you have **Node.js** and **npm** installed.
 
 1. **Clone the repository**
    ```sh
-   git clone https://github.com/your-username/sprite-animation-panel.git
+   git clone https://github.com/Mrrohitingle/Juspay_Sprite.git
    cd sprite-animation-panel
 2. **Install dependencies**
    ```sh
